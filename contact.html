@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!-- Title here -->
+		<title>Recipe - Organeek</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Your description">
+		<meta name="keywords" content="Your,Keywords">
+		<meta name="author" content="ResponsiveWebInc">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Portfolio CSS -->
+		<link href="css/prettyPhoto.css" rel="stylesheet">
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">	
+		<!-- Custom Less -->
+		<link href="css/less-style.css" rel="stylesheet">	
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		<!--[if IE]><link rel="stylesheet" href="css/ie-style.css"><![endif]-->
+		<!--Sidebar Theme-->
+                <link rel="stylesheet" href="css/theme-elements.css">
+                <link rel="stylesheet" href="css/theme.css">
+                <link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+                <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+                <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+                <link href='http://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
+                <link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="#">
+	
+	</head>
+	
+	<body>
+	<div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=651121894919208&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>	
+	<!-- Shopping cart Modal -->
+		<div class="modal fade" id="shoppingcart1" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Shopping Cart</h4>
+					</div>
+					<div class="modal-body">
+						<!-- Items table -->
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Quantity</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><a href="#">Exception Reins Evocative</a></td>
+									<td>2</td>
+									<td>$200</td>
+								</tr>
+								<tr>
+									<td><a href="#">Taut Mayoress Alias Appendicitis</a></td>
+									<td>1</td>
+									<td>$190</td>
+								</tr>
+								<tr>
+									<td><a href="#">Sinter et Molests Perfectionist</a></td>
+									<td>4</td>
+									<td>$99</td>
+								</tr>
+								<tr>
+									<th></th>
+									<th>Total</th>
+									<th>P489</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Continue Shopping</button>
+						<button type="button" class="btn btn-info">Checkout</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		<!-- Model End -->
+		
+		<!-- Page Wrapper -->
+                <div class="banner-top"> 
+                                <div class="container">
+                                    <div class="col-md-4 col-sm-4">
+                                        <!-- Header top About -->
+                                        <div class="header-contact">
+                                            <!-- Contact number -->
+                                            <span><a href="contact.html"> Contact Us |</a></span> 
+                                            <span><a href="aboutus.html"> About Us</a></span>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Header Social -->
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="social-banner">
+                                            <!-- Social -->
+                                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                            <a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Shopping Cart -->
+                                    <div class="col-md-4 col-sm-4">
+                                        <!-- Button Kart -->
+                                        <div class="btn-cart-md">
+                                                <a class="cart-link" href="#">
+                                                        <!-- Image -->
+                                                        <img class="img-responsive" src="img/shopping-cart.png" alt="" />
+                                                        <!-- Heading -->
+                                                        <h4>Shopping Cart</h4>
+                                                        <span>3 items P489/-</span>
+                                                        <div class="clearfix"></div>
+                                                </a>
+                                                <ul class="cart-dropdown" role="menu">
+                                                        <li>
+                                                                <!-- Cart items for shopping list -->
+                                                                <div class="cart-item">
+                                                                        <!-- Item remove icon -->
+                                                                        <a href="#"><i class="fa fa-times"></i></a>
+                                                                        <!-- Image -->
+                                                                        <img class="img-responsive img-rounded" src="img/nav-menu/nav1.jpg" alt="" />
+                                                                        <!-- Title for purchase item -->
+                                                                        <span class="cart-title"><a href="#">Exception Reins Evocative</a></span>
+                                                                        <!-- Cart item price -->
+                                                                        <span class="cart-price pull-right red">$200/-</span>
+                                                                        <div class="clearfix"></div>
+                                                                </div>
+                                                        </li>
+                                                        <li>
+                                                                <!-- Cart items for shopping list -->
+                                                                <div class="cart-item">
+                                                                        <!-- Item remove icon -->
+                                                                        <a href="#"><i class="fa fa-times"></i></a>
+                                                                        <!-- Image -->
+                                                                        <img class="img-responsive img-rounded" src="img/nav-menu/nav1.jpg" alt="" />
+                                                                        <!-- Title for purchase item -->
+                                                                        <span class="cart-title"><a href="#">Taut Mayoress Alias Appendicitis</a></span>
+                                                                        <!-- Cart item price -->
+                                                                        <span class="cart-price pull-right red">$190/-</span>
+                                                                        <div class="clearfix"></div>
+                                                                </div>
+                                                        </li>
+                                                        <li>
+                                                                <!-- Cart items for shopping list -->
+                                                                <div class="cart-item">
+                                                                        <!-- Item remove icon -->
+                                                                        <a href="#"><i class="fa fa-times"></i></a>
+                                                                        <!-- Image -->
+                                                                        <img class="img-responsive img-rounded" src="img/nav-menu/nav1.jpg" alt="" />
+                                                                        <!-- Title for purchase item -->
+                                                                        <span class="cart-title"><a href="#">Sinter et Molests Perfectionist</a></span>
+                                                                        <!-- Cart item price -->
+                                                                        <span class="cart-price pull-right red">$99/-</span>
+                                                                        <div class="clearfix"></div>
+                                                                </div>
+                                                        </li>
+                                                        <li>
+                                                                <!-- Cart items for shopping list -->
+                                                                <div class="cart-item">
+                                                                        <a class="btn btn-danger" data-toggle="modal" href="#shoppingcart1">Checkout</a>
+                                                                </div>
+                                                        </li>
+                                                </ul>
+                                                <div class="clearfix"></div>
+                                        </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <!--Shopping End-->
+                            </div>
+                        <div class="container clearfix"></div>
+                    </div>
+                <div class="container container-bg">
+                    
+                    <!--Header Top Ends -->
+
+			<div class="header">
+				<div class="container">
+                                    <div class="row">
+						<div class="col-md-4 col-sm-5">
+							<!-- Link -->
+							<a href="index.php">
+								<!-- Logo area -->
+								<div class="logo">
+									<img class="img-responsive" src="img/logo/ologo2.png" alt="Organeek"/>
+									<!-- Heading 
+									<h1>Organeek</h1>-->
+									<!-- Paragraph -->
+									<p>Celebrating Beauty & Wellness</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-8 col-sm-7">
+							<!-- Navigation -->
+							<nav class="navbar navbar-default navbar-right" role="navigation">
+								<div class="container-fluid">
+									<!-- Brand and toggle get grouped for better mobile display -->
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+
+									<!-- Collect the nav links, forms, and other content for toggling -->
+									<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+										<ul class="nav navbar-nav">
+											<li><a href="index.php"><img src="img/nav-menu/nav1.jpg" class="img-responsive" alt="" />Home</a></li>
+											<li class="dropdown hidden-xs">
+												<a href="beauty.html" class="dropdown-toggle" data-toggle="dropdown"><img src="img/nav-menu/beauty.jpg" class="img-responsive" alt="" /> Beauty <b class="caret"></b></a>
+												<ul class="dropdown-menu dropdown-md">
+													<li>
+														<div class="row">
+															<div class="col-md-4 col-sm-6">
+																<!-- Menu Item -->
+																<div class="menu-item">
+																	<!-- Heading -->
+																	<h3>Recipe</h3>
+																	<!-- Image -->
+																	<img src="img/nav-menu/beautyrecipe.jpg" class="img-responsive" alt="" />
+																	<!-- Paragraph -->
+																	<p>Easy-to-follow beauty recipes without the nasty chemicals</p>
+																	<!-- Button -->
+																	<a href="recipe/beauty.php" class="btn btn-danger btn-xs">View Menu</a>
+																</div>
+															</div>
+															<div class="col-md-4 col-sm-6">
+																<!-- Menu Item -->
+																<div class="menu-item">
+																	<!-- Heading -->
+																	<h3>Blog</h3>
+																	<!-- Image -->
+																	<img src="img/nav-menu/beautyblog.jpg" class="img-responsive" alt="" />
+																	<!-- Paragraph -->
+																	<p>All you need to know about beauty-related topics</p>
+																	<!-- Button -->
+																	<a href="blog/beauty.php" class="btn btn-danger btn-xs">View Menu</a>
+																</div>
+															</div>
+                                                                                                                        <div class="col-md-4 col-sm-6">
+																<!-- Menu Item -->
+																<div class="menu-item">
+																	<!-- Heading -->
+																	<h3>Regimen</h3>
+																	<!-- Image -->
+																	<img src="img/nav-menu/beautyregimen.jpg" class="img-responsive" alt="" />
+																	<!-- Paragraph -->
+																	<p>Sure guide to achieve and maintain beauty</p>
+																	<!-- Button -->
+																	<a href="0-base.html" class="btn btn-danger btn-xs">View Menu</a>
+																</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</li>
+                                                                                        
+                                                                                        <li class="dropdown hidden-xs">
+												<a href="wellness.html" class="dropdown-toggle" data-toggle="dropdown"><img src="img/nav-menu/wellness.jpg" class="img-responsive" alt="" /> Wellness <b class="caret"></b></a>
+												<ul class="dropdown-menu dropdown-md">
+													<li>
+														<div class="row">
+															<div class="col-md-4 col-sm-6">
+																<!-- Menu Item -->
+																<div class="menu-item">
+																	<!-- Heading -->
+																	<h3>Recipe</h3>
+																	<!-- Image -->
+																	<img src="img/nav-menu/wellnessrecipe.jpg" class="img-responsive" alt="" />
+																	<!-- Paragraph -->
+																	<p>Simple & environmental-friendly recipes that will not blow your budget away</p>
+																	<!-- Button -->
+																	<a href="recipe/wellness.php" class="btn btn-danger btn-xs">View Recipe</a>
+																</div>
+															</div>
+															<div class="col-md-4 col-sm-6">
+																<!-- Menu Item -->
+																<div class="menu-item">
+																	<!-- Heading -->
+																	<h3>Blog</h3>
+																	<!-- Image -->
+																	<img src="img/nav-menu/wellnessblog.jpg" class="img-responsive" alt="" />
+																	<!-- Paragraph -->
+																	<p>All you need to know about wellness-related topics</p>
+																	<!-- Button -->
+																	<a href="blog/wellness.php" class="btn btn-danger btn-xs">View Blog</a>
+																</div>
+															</div>
+                                                                                                                        <div class="col-md-4 col-sm-6">
+																<!-- Menu Item -->
+																<div class="menu-item">
+																	<!-- Heading -->
+																	<h3>Regimen</h3>
+																	<!-- Image -->
+																	<img src="img/nav-menu/wellnessregimen.jpg" class="img-responsive" alt="" />
+																	<!-- Paragraph -->
+																	<p>Step-by-step guide to achieve healthy lifestyle</p>
+																	<!-- Button -->
+																	<a href="0-base.html" class="btn btn-danger btn-xs">View Regimen</a>
+																</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</li>
+                                                                                        
+                                                                                        <li class="dropdown hidden-xs">
+												<a href="naturalhome.html" class="dropdown-toggle" data-toggle="dropdown"><img src="img/nav-menu/naturalhome.jpg" class="img-responsive" alt="" /> House <b class="caret"></b></a>
+												<ul class="dropdown-menu dropdown-md">
+													<li>
+														<div class="row">
+															<div class="col-md-4 col-sm-6">
+																<!-- Menu Item -->
+																<div class="menu-item">
+																	<!-- Heading -->
+																	<h3>Recipe</h3>
+																	<!-- Image -->
+																	<img src="img/nav-menu/homerecipe.jpg" class="img-responsive" alt="" />
+																	<!-- Paragraph -->
+																	<p>Recipes that your whole family will love</p>
+																	<!-- Button -->
+																	<a href="recipe/naturalhome.php" class="btn btn-danger btn-xs">View Recipe</a>
+																</div>
+															</div>
+															<div class="col-md-4 col-sm-6">
+																<!-- Menu Item -->
+																<div class="menu-item">
+																	<!-- Heading -->
+																	<h3>Blog</h3>
+																	<!-- Image -->
+																	<img src="img/nav-menu/homeblog.jpg" class="img-responsive" alt="" />
+																	<!-- Paragraph -->
+																	<p>All you need to know about natural home-related topics</p>
+																	<!-- Button -->
+																	<a href="blog/naturalhome.php" class="btn btn-danger btn-xs">View Blog</a>
+																</div>
+															</div>
+                                                                                                                </div>
+													</li>
+												</ul>
+											</li>
+                                                                                        
+											<li class="dropdown">
+												<a href="ingredients.php" class="dropdown-toggle" data-toggle="dropdown"><img src="img/nav-menu/ingredients.jpg" class="img-responsive" alt="" /> Ingredients <b class="caret"></b></a>
+												<ul class="dropdown-menu">
+													<li><a href="ingredients.php">Active Ingredients</a></li>
+                                                                                                        <li><a href="ingredients.php">Clay</a></li>
+                                                                                                        <li><a href="ingredients.php">Condiments</a></li>
+                                                                                                        <li><a href="ingredients.php">Dairy Products</a></li>
+                                                                                                        <li><a href="ingredients.php">Fermented Products</a></li>
+                                                                                                        <li><a href="ingredients.php">Fruits</a></li>
+                                                                                                        <li><a href="ingredients.php">Honey Products</a></li>
+                                                                                                        <li><a href="ingredients.php">Oil & Extract</a></li>
+                                                                                                        <li><a href="ingredients.php">Seeds & Grains</a></li>
+                                                                                                        <li><a href="ingredients.php">Spices</a></li>
+                                                                                                        <li><a href="ingredients.php">Tea</a></li>
+                                                                                                        <li><a href="ingredients.php">Veggies</a></li>
+                                                                                                        
+												</ul>
+											</li>
+											<li class="dropdown">
+												<a href="recipe.php" class="dropdown-toggle" data-toggle="dropdown"><img src="img/nav-menu/recipe.jpg" class="img-responsive" alt="" /> Recipe <b class="caret"></b></a>
+												<ul class="dropdown-menu">
+													<li><a href="recipe/all/">All</a></li>
+													<li><a href="recipe/body_skin/">Body & Skin</a></li>
+                                                                                                        <li><a href="recipe/face_care/">Face Care</a></li>
+                                                                                                        <li><a href="recipe/hair_care/">Hair Care</a></li>
+                                                                                                        <li><a href="recipe/oral_care/">Oral Care</a></li>
+                                                                                                        <li><a href="recipe/personal_hygiene/">Personal Hygiene</a></li>
+                                                                                                        <li><a href="recipe/wellness/">Wellness</a></li>
+													
+												</ul>
+											</li>
+											
+                                                                                        <li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="img/nav-menu/shop.jpg" class="img-responsive" alt="" /> Shop <b class="caret"></b></a>
+												<ul class="dropdown-menu">
+													<li><a href="items.html">Shopping</a></li>
+													<li><a href="item-single.html">Order Now</a></li>
+													<li><a href="checkout.html">Checkout</a></li>
+												</ul>
+											</li>
+                                                                                </ul>
+									</div><!-- /.navbar-collapse -->
+								</div><!-- /.container-fluid -->
+							</nav>
+						</div>
+					</div>
+				</div> <!-- / .container -->
+			</div>
+			<!-- Header End -->
+			                        
+			<!-- Inner Content -->
+			<div class="inner-page padd">
+			
+				<!-- Contact Us Start -->
+				
+				<div class="contactus">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<!-- Contact Us content -->
+								<div class="row">
+									<div class="col-md-6 col-sm-6">
+										<!-- Contact content details -->
+										<div class="contact-details">
+											<!-- Heading -->
+											<h4>Connect</h4><!-- Social / Icon -->
+                                                                                        <div class="padd"></div>
+											<div class="social-banner social1">
+                                                                                                <a href="#" class="facebook"><i class="fa fa-facebook circle-social"></i></a>
+                                                                                                <a href="#" class="google-plus"><i class="fa fa-google-plus circle-social"></i></a>
+                                                                                                <a href="#" class="twitter"><i class="fa fa-twitter circle-social"></i></a>
+                                                                                                <a href="#" class="pinterest"><i class="fa fa-pinterest circle-social"></i></a>
+                                                                                        </div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6">
+										<!-- Contact content details -->
+										<div class="contact-details">
+											<!-- Heading -->
+											<h4>Advertise with us</h4>
+											<!-- Contact Number / Icon -->
+											<i class="fa fa-phone br-blue"></i> <span>+63 935 136 3297</span>
+											<div class="clearfix"></div>
+											<!-- Email / Icon -->
+											<i class="fa fa-envelope-o br-rose"></i> <span><a href="#">admin@organeek.net</a></span>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+								</div><!--/ Inner row end -->
+								<!-- Contact form -->
+								<div class="contact-form">
+									<!-- Heading -->
+									<h4>Contact Form</h4>
+									<!-- Form -->
+									<form role="form">
+										<div class="form-group">
+											<!-- Form input -->
+											<input class="form-control" type="text" placeholder="Name" />
+										</div>
+										<div class="form-group">
+											<!-- Form input -->
+											<input class="form-control" type="email" placeholder="Email" />
+										</div>
+										<div class="form-group">
+											<!-- Form text area -->
+											<textarea class="form-control" rows="3" placeholder="Message..."></textarea>
+										</div>
+										<!-- Form button -->
+										<button class="btn btn-danger btn-sm" type="submit">Send</button>&nbsp;
+										<button class="btn btn-default btn-sm" type="reset">Reset</button>
+									</form>
+								</div><!--/ Contact form end -->
+							</div>
+							<div class="col-md-6">
+								<!-- Map holder -->
+								<div class="map-container">
+									<!-- Google Map -->
+									<iframe	src="https://maps.google.co.in/?ie=UTF8&amp;ll=12.953997,77.63094&amp;spn=0.815042,1.352692&amp;t=m&amp;z=10&amp;output=embed"></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Contact Us End -->
+			
+				<!-- Blogger Start -->
+				
+				<div class="chefs padd">
+					<div class="container">
+						<!-- Default Heading -->
+						<div class="default-heading">
+							<!-- Crown image -->
+							<img class="img-responsive" src="img/logo/logo.png" alt="" />
+							<!-- Heading -->
+							<h2>Bloggers & Contributors</h2>
+							<!-- Paragraph -->
+							<p>Organeek's most dedicated bloggers and contributors who bring forth the most sumptuous tidbit about wellness and beauty.</p>
+							<!-- Border -->
+							<div class="border"></div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 col-sm-4">
+								<!-- Blogger Member -->
+								<div class="chefs-member">
+									<!-- Chefs member header -->
+									<div class="chefs-head">
+										<!-- Member background image -->
+										<img class="chefs-back img-responsive" src="img/chef/blogger1.jpg" alt="" />
+										<!-- chef member image -->
+										<img class="chefs-img img-responsive" src="img/user.jpg" alt="" />
+									</div>
+									<!--Name / Heading -->
+									<h3><a href="#">Haze</a></h3>
+									<!-- Member designation -->
+									<span>Founder, Contributor & Designer</span>
+									<!-- Social media links -->
+									<div class="social">
+										<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+										<a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+										<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+										<a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<!-- Chef Member -->
+								<div class="chefs-member">
+									<!-- Chefs member header -->
+									<div class="chefs-head">
+										<!-- Member background image -->
+										<img class="chefs-back img-responsive" src="img/chef/blogger2.jpg" alt="" />
+										<!-- chef member image -->
+										<img class="chefs-img img-responsive" src="img/user.jpg" alt="" />
+									</div>
+									<!--Name / Heading -->
+									<h3><a href="#">Hanna Marie</a></h3>
+									<!-- Member designation -->
+									<span>Developer</span>
+									<!-- Social media links -->
+									<div class="social">
+										<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+										<a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+										<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+										<a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<!-- Chef Member -->
+								<div class="chefs-member">
+									<!-- Chefs member header -->
+									<div class="chefs-head">
+										<!-- Member background image -->
+										<img class="chefs-back img-responsive" src="img/chef/c-back3.jpg" alt="" />
+										<!-- chef member image -->
+										<img class="chefs-img img-responsive" src="img/user.jpg" alt="" />
+									</div>
+									<!--Name / Heading -->
+									<h3><a href="#">Edgar</a></h3>
+									<!-- Member designation -->
+									<span>Researcher</span>
+									<!-- Social media links -->
+									<div class="social">
+										<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+										<a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+										<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+										<a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                                <!-- Blogger & Contributor End -->
+				
+			</div><!-- / Inner Page Content End -->	
+			
+			<!-- Footer Start -->
+			<div class="footer">
+                            <br>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<!-- Footer widget -->
+							<div class="footer-widget">
+								<!-- Logo area -->
+								<div class="logo">
+									<img class="img-responsive" src="img/logo/ologo2.png" alt="" />
+								</div>
+								<!-- Paragraph -->
+								<p>Organeek aspires to be the leading source of natural home, health and beauty information and promotes wellness through knowledge and sustainable living.</p>
+                                                                <!-- Heading -->
+                                                                <br>
+								<h4>Online Payment</h4>
+								<!-- Images -->
+								<a href="#"><img class="payment img-responsive" src="img/payment/discover.gif" alt="" /></a>
+								<a href="#"><img class="payment img-responsive" src="img/payment/mastercard.gif" alt="" /></a>
+								<a href="#"><img class="payment img-responsive" src="img/payment/paypal.gif" alt="" /></a>
+								<a href="#"><img class="payment img-responsive" src="img/payment/visa.gif" alt="" /></a>
+								
+							</div> <!--/ Footer widget end -->
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<!-- Footer widget -->
+							<div class="footer-widget">
+								<!-- Heading -->
+								<h4>Famous Recipe</h4>
+								<!-- Images -->
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+                                                                <div class="padd1"></div>
+                                                                
+							</div> <!--/ Footer widget end -->
+						</div>
+						<div class="clearfix visible-sm"></div>
+						<div class="col-md-3 col-sm-6">
+							<!-- Footer widget -->
+							<div class="footer-widget">
+								<!-- Heading -->
+								<h4>Join Us Today</h4>
+								<!-- Paragraph -->
+								<p>Subscribe to receive FREE newsletter, recipes and blogs and gain access to beauty and wellness regime.</p>
+                                                                <br>
+								<!-- Subscribe form -->
+								<form role="form">
+									<div class="form-group">
+										<input class="form-control" type="text" placeholder="Your name" />
+									</div>
+									<div class="form-group">
+										<input class="form-control" type="email" placeholder="Your email" />
+									</div>
+									<button class="btn btn-danger" type="button">Subscribe</button>
+								</form>
+							</div> <!--/ Footer widget end -->
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<!-- Footer widget -->
+							<div class="footer-widget">
+								<!-- Heading -->
+								<h4>Connect</h4>
+								<div class="contact-details">
+									<!-- Address / Icon -->
+									<div class="fb-like-box" data-href="https://www.facebook.com/organeek" data-width="200" data-height="200" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+								</div>
+								<!-- Social media icon -->
+								<div class="social-banner social1">
+									<a href="#" class="facebook"><i class="fa fa-facebook circle-social"></i></a>
+									<a href="#" class="google-plus"><i class="fa fa-google-plus circle-social"></i></a>
+									<a href="#" class="twitter"><i class="fa fa-twitter circle-social"></i></a>
+									<a href="#" class="pinterest"><i class="fa fa-pinterest circle-social"></i></a>
+								</div>
+							</div> <!--/ Footer widget end -->
+						</div>
+					</div>
+                                    </div>
+					<!-- Copyright -->
+					<div class=" footer footer-copyright">
+						<!-- Paragraph -->
+                                                <p>&copy; Copyright 2014 Organeek. All rights reserved. </p>
+                                                <p>This website is for information purposes only, and should not be construed as medical advice or as a replacement for medical treatment. It is neither intended nor implied to be a substitute for professional advice. </p>
+					</div>
+				</div>
+			<!-- Footer End -->
+			
+		</div><!-- / Wrapper End -->
+		
+		
+		<!-- Scroll to top -->
+		<span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span> 
+		
+		
+		
+		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="js/html5shiv.js"></script>
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+		<!-- JS code for this page -->
+		<script>
+		
+		</script>
+	</body>	
+</html>
